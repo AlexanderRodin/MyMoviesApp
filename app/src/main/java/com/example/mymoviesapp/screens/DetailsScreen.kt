@@ -72,7 +72,6 @@ fun DetailsScreen(viewModel: MainViewModel, itemId: String) {
                             )
                         }
                     }
-//                    TODO No text movies?
                     HtmlText(
                         html = currentItem?.summary ?: "",
                         modifier = Modifier.padding(top = 10.dp)
